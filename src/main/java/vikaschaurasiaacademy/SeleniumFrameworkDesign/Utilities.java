@@ -42,6 +42,7 @@ static WebDriver driver;
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.elementToBeClickable(findBy)).click();
 	}
+ 
 	
 	public void goToCart() {
 		WaitforElementToAppear(toast);
